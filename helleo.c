@@ -39,7 +39,7 @@ static struct usb_driver pen_driver =
 static int __init pen_init(void){
     int ret = -1;
     printk(KERN_INFO "[*]Pasiron Linux Constructor of driver ");
-    printk(KERN_INFO "\T Registering Driver With Kernel");
+    printk(KERN_INFO "\t Registering Driver With Kernel");
     ret = usb_register(&pen_driver);
     printk(KERN_INFO "\t Registration is complate");
     return ret;
