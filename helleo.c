@@ -13,7 +13,7 @@ static int pen_probe(struct usb_interface *interface, const struct usb_device_id
 
 static void pen_disconnect(struct usb_interface *interface)
 {
-    printk(KERN_INFO "[*] Pasiron Linux Pen drive removed")
+    printk(KERN_INFO "[*] Pasiron Linux Pen drive removed");
 };
 
 
@@ -57,5 +57,5 @@ module_init(pen_init);
 module_exit(pen_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Morphy Kutay")
-MODULE_DESCRIPTION("USB Pen Registration Driver") 
+MODULE_AUTHOR("Morphy Kutay");
+MODULE_DESCRIPTION("USB Pen Registration Driver") ;
